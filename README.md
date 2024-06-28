@@ -4,10 +4,19 @@ Maddison's tmux configuration!
 
 ## Install
 
+```bash
+git clone https://github.com/garuda-dotfiles/tmux-conf ~/lib
+cd ~/lib/tmux-conf/
+mkdir plugins
 ```
-$ git clone https://github.com/tmux-plugins/tpm $XDG_CONFIG_HOME/tmux/plugins/tpm
-$ tmux
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/lib/tmux-conf/plugins/tpm
+tmux
 ```
+
+- `<Ctrl>` + `<Shift> R` to reload file `tmux.conf` in my repo
+- `Ctrl` + `Shift I` to clone plugins
 
 ## License
 
