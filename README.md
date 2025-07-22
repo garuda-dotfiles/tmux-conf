@@ -15,8 +15,10 @@ git clone https://github.com/tmux-plugins/tpm ~/lib/tmux-conf/plugins/tpm
 tmux
 ```
 
-- `<Ctrl>` + `<Shift> R` to reload file `tmux.conf` in my repo
-- `Ctrl` + `Shift I` to clone plugins
+- Create Symlink tmux configuration folder to ~/.config/tmux
+
+- `<PREFIX_TMUX>` + `<Shift> R` to reload file `tmux.conf` in my repo
+- `<PREFIX_TMUX>` + `Shift I` to clone plugins
 
 ## License
 
