@@ -5,17 +5,13 @@ Maddison's tmux configuration!
 ## Install
 
 ```bash
-git clone https://github.com/garuda-dotfiles/tmux-conf ~/lib
-cd ~/lib/tmux-conf/
-mkdir plugins
-```
-
-```bash
-git clone https://github.com/tmux-plugins/tpm ~/lib/tmux-conf/plugins/tpm
+git clone https://github.com/garuda-dotfiles/tmux-conf ~/dotfiles-conf/tmux-conf
+ln -s ~/dotfiles-conf/tmux-conf ~/.config/tmux
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
 tmux
 ```
 
-- Create Symlink tmux configuration folder to ~/.config/tmux
+Optional: `xsel` (tmux-thumbs copy to clipboard).
 
 - `<PREFIX_TMUX>` + `<Shift> R` to reload file `tmux.conf` in my repo
 - `<PREFIX_TMUX>` + `Shift I` to clone plugins
